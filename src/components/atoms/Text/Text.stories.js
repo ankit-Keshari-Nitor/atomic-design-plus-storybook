@@ -1,8 +1,8 @@
-import React from 'react'
-import Text  from './Text';
+import React from "react"
+import Text from "./Text"
 
 export default {
-  title: 'atoms/Text',
+  title: "atoms/Text",
   component: Text,
 }
 
@@ -11,12 +11,12 @@ function Template(args) {
 }
 
 const data = {
-    label: 'Akash Ingole',
-    type: 'subtitle'
+  label: "Nitor Assessment",
+  type: "subtitle",
 }
 const headingdata = {
-  label: 'Akash Ingole',
-  type: 'heading'
+  label: "Nitor Assessment",
+  type: "heading",
 }
 export const Heading = Template.bind({})
 Heading.args = {
